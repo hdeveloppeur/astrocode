@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/astrocode.css">
+	<title>ASTROCODE</title>
+</head>
+	
+<body>
+		<!-- BANNIERE -->
+		<div class="container-fluid">
+				<div class="row">
+						<img src="images/image.jpg" class="banniere">
+				</div>		
+			
+			<!-- TITRE + TEXTE -->
+			<div class="container">
+			
+					<div class="col bloc_title">
+							<h1 class="astro_title">Astro</h1>
+							<h1 class="code_title">code</h1>
+					</div>
+					
+					<div class="col bloc_text">
+							<h2>Vous souhaitez connaître votre signe et décan astrologique ?</h2>
+							<h2>Entrez votre date de naissance dans le formulaire ci-dessous.</h2>
+					</div>
+
+			<!-- SECTION FORM -->
+					<div class="bloc">
+							<label class="label">JOUR :</label>
+							<input type="text" id="id_jour" placeholder="_ _" maxlength="2">
+					</div>
+				
+					<div class="bloc">
+							<label class="label">MOIS :</label>
+							<select id="id_mois">
+									<option></option>
+									<option>Janvier</option>
+									<option>Février</option>
+									<option>Mars</option>
+									<option>Avril</option>
+									<option> Mai</option>						
+									<option> Juin</option>
+									<option> Juillet</option>
+									<option> Août</option>
+									<option> Septembre</option>
+									<option> Octobre</option>
+									<option> Novembre</option>
+									<option> Décembre</option>
+							</select>
+					</div>
+		
+					<div class="bloc">
+							<label class="label">Année :</label>
+							<input type="text" id="id_annee" placeholder="_ _ _ _" maxlength="4">
+					</div>
+				
+					<button type="submit" class="btn btn-danger float-right mt-2" onclick="check_astro()">ENTRER</button>
+					<button type="submit_rejouer" class="btn btn-rejouer float-right mt-2 mr-2" onclick="rejouer()">REJOUER</button>
+			</div>
+		
+					<div class="container-fluid validate">
+						<div class="row">
+							<h1 id="Validation"></h1>
+						</div> 	
+					</div>
+		</div>
+					
+<!-- JS LINK -->
+				<script src="js/astrocode.js"></script>
+</body>
+</html>

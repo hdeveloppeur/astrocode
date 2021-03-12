@@ -1,0 +1,115 @@
+body{
+	background-color: whitesmoke;
+	}
+/*** BANNIERE ***/
+.banniere {
+	position: relative;
+	width: 100%;
+	height: 13vmax;	
+	}
+
+/*** TITRE + TEXTE ***/
+.bloc_title, .bloc_text {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	margin-top: 1.5%;
+	}
+	.astro_title, .code_title {
+		color: #012454;
+		font-size: 4vmax;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		}
+		.code_title {
+			color: #8CD8DC;
+			}
+			.bloc_text {
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-bottom: 3%;
+				}
+				h2 {
+					font-size: 1.5vmax;
+					}	
+
+/*** SECTION FORM ***/
+	.bloc {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100%;
+		}
+		.label {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			height: 8vh;
+			width: 20vmax;
+			background-color: #012454;
+			color: white;
+			font-size: 1.5vmax;
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			}
+			#id_jour, #id_mois, #id_annee {	
+				height: 8vh;
+				width: 20vmax;
+				background-color: whitesmoke;
+				text-align: center;
+				border: 5px solid #8CD8DC;
+				font-size: 2vmax;		
+				}
+				.btn {
+					font-size: 1vmax;
+					}
+					.btn-rejouer{
+						color: white;
+						background-color: #012454 !important;				
+						}
+						.btn-rejouer:hover{
+							color: white;				
+							}
+							.validate {
+								display: -webkit-box;
+								display: -ms-flexbox;
+								display: flex;
+								-webkit-box-align: center;
+								-ms-flex-align: center;
+								align-items: center;
+								-webkit-box-pack: center;
+								-ms-flex-pack: center;
+								justify-content: center;
+								padding: 0;
+								}
+								#Validation {
+									font-size: 3vmax;
+									margin-top: 2%;
+									}
+
+		
+
+
+
+			
+		
+
+
